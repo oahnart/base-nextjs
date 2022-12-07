@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 
 import { Meta } from '@/layouts/Meta';
 import { Main } from '@/templates/Main';
+import Cookies from 'js-cookie';
 
 const Index = () => {
   const router = useRouter();

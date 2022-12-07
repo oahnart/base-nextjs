@@ -8,7 +8,20 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang={AppConfig.locale}>
-        <Head />
+        <Head>
+          <meta
+            name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width"
+            key="viewport"
+          />
+          <meta charSet="utf-8" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <meta
+            name="description"
+            content="Next.js Client side sign in example"
+            key="description"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
