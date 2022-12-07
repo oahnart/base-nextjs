@@ -18,7 +18,7 @@ const moneyConvert = (value: any, isFormat?: boolean, isFixed?: boolean) => {
   return `${natural}.${arr[1]}`;
 };
 
-export const moneyConvertToNumber = (value: any, isFormat?: boolean) => {
+export const moneyConvertToNumber = (value: any) => {
   value = value.replace(/\D/g, '');
   if (value === '' || value === undefined || value === null) return 0;
   return Number(value);

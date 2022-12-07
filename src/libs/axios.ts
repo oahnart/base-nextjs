@@ -73,6 +73,8 @@ const mainAxios = {
             } else if (!notError) {
               const data: any = dataCode;
               const errData = err.response.data;
+              console.log("data[errData.errorCode?.trim()]",data[errData.errorCode?.trim()]);
+              
               // message.info(data[errData.errorCode?.trim()]);
               resolve({ data: { datas: [] }, error: err.response.data });
             } else if (getError) {

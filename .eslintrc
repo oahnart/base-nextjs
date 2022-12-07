@@ -28,7 +28,9 @@
         "plugin:tailwindcss/recommended",
         "airbnb-typescript",
         "next/core-web-vitals",
-        "plugin:prettier/recommended"
+        "plugin:prettier/recommended",
+        "some-other-config-you-use",
+        "prettier"
       ],
       "parserOptions": {
         "project": "./tsconfig.json"
