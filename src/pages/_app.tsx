@@ -33,7 +33,7 @@ export default function MyApp(props: AppProps) {
             <Component {...pageProps} />
           </AuthGuard>
         ) : (
-          // public page
+          //// public page
           <Component {...pageProps} />
         )}
       </PersistGate>
